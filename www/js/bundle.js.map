@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/util/listitems.ts", "../../src/index.ts"],
+  "sourcesContent": ["export const prgList = ():string[] => {\n   return ['PHP', 'JavaScript', 'Java', 'Go', \"C#\"]\n}", "import { prgList } from \"./util/listitems\"\nconst l = prgList()\n\nl.forEach((a:string) => console.log(a))\n"],
+  "mappings": "AAAO,IAAMA,EAAU,IACb,CAAC,MAAO,aAAc,OAAQ,KAAM,IAAI,ECAlD,IAAMC,EAAIC,EAAQ,EAElBD,EAAE,QAASE,GAAa,QAAQ,IAAIA,CAAC,CAAC",
+  "names": ["prgList", "l", "prgList", "a"]
+}
